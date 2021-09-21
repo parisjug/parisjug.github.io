@@ -1,8 +1,8 @@
 const speakers = [
     {
-        name: "Lilian Benoit",
-        avatar: "https://pbs.twimg.com/profile_images/378800000064899867/1c623b76a82a2aa044f684136a028cf6_400x400.png",
-        contact: "@Lilian_Benoit",
+        name: "Rémi Forax",
+        avatar: "https://pbs.twimg.com/profile_images/3723490094/0803d7111f1d20c57b30e2d88b0377ff_400x400.jpeg",
+        contact: "@RemiForaxOff",
         title: ""
     }
 ]
