@@ -1,6 +1,18 @@
 const speakers = [
     {
+        name: "Charles Sabourdin",
+        avatar: "https://pbs.twimg.com/profile_images/852073008772648960/OHbbEu8Y_400x400.jpg",
+        contact: "@kanedafromparis",
+        title: ""
+    },
+    {
         name: "Rémi Forax",
+        avatar: "https://pbs.twimg.com/profile_images/3723490094/0803d7111f1d20c57b30e2d88b0377ff_400x400.jpeg",
+        contact: "@RemiForaxOff",
+        title: "Maître de conf"
+    },
+    {
+        name: "Rémi Forax 2",
         avatar: "https://pbs.twimg.com/profile_images/3723490094/0803d7111f1d20c57b30e2d88b0377ff_400x400.jpeg",
         contact: "@RemiForaxOff",
         title: ""
