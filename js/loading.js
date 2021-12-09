@@ -31,7 +31,7 @@ const sentences = [
     'Est-ce qu\'on a pensé à vider le cache ? 🗑️',
     'Comment on augmente le PermGenSpace déjà ? 📈',
     'Concours Twitter: 3 licences IntelliJ à gagner ! 🎁',
-    'Concours Twitter: 1 tweet avec une photo, les mentions @kanedafromparis #parisjug pour participer 🎉'
+    'Concours Twitter: 1 tweet avec une photo, les mentions @titimoby @LostInBrittany #parisjug pour participer 🎉'
 ];
 
 function updateTime() {
