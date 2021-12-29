@@ -1,21 +1,27 @@
 const speakers = [
     {
-        name: "Horacio Gonzalez",
-        avatar: "https://pbs.twimg.com/profile_images/1331197329160933378/7RlmUVvr_400x400.jpg",
-        contact: "@LostInBrittany",
-        title: "Head of #DevRel @OVHcloud"
+        name: "Christian Nader",
+        avatar: "https://media-exp1.licdn.com/dms/image/C4D03AQHHtp2c5EJmKg/profile-displayphoto-shrink_200_200/0/1517865125982?e=1646265600&v=beta&t=CsaV3hGZEa2lN0hq58_laRKgchJ6mso6ZohecPlL-j8",
+        contact: "",
+        title: "JavaCorp : HashiCorp stack + Java microservices"
     },
     {
-        name: "Thierry Chantier",
-        avatar: "https://pbs.twimg.com/profile_images/1214562685225824257/VcHenCIT_400x400.jpg",
-        contact: "@titimoby",
-        title: "Community Hero @gitpod"
+        name: "Benoit Lacelle",
+        avatar: "https://media-exp1.licdn.com/dms/image/C4D03AQE4xlp31Q_D5Q/profile-displayphoto-shrink_200_200/0/1535312783745?e=1646265600&v=beta&t=wviVE1SIr1mcjHNFQ45unmeOQ9HXbYwgz_5Gv6lDsC0",
+        contact: "",
+        title: "CleanThat, un bot cleaner de code"
     },
     {
-        name: "Rémi Forax 2",
-        avatar: "https://pbs.twimg.com/profile_images/3723490094/0803d7111f1d20c57b30e2d88b0377ff_400x400.jpeg",
-        contact: "@RemiForaxOff",
-        title: ""
+        name: "Seddiki Sonia",
+        avatar: "https://media-exp1.licdn.com/dms/image/C4D03AQE-WpLz-6xypA/profile-displayphoto-shrink_200_200/0/1639224617582?e=1646265600&v=beta&t=873hdCuQslg5_4SZsZSzKK8r2aaKA3qJzFs-5ADhZpI",
+        contact: "",
+        title: "Simplifiez vos revues de code avec le rebase interactif"
+    },
+    {
+        name: "Loïc Hermann",
+        avatar: "https://pbs.twimg.com/profile_images/1015920014199803904/3etSUUe7_400x400.jpg",
+        contact: "@loichrn",
+        title: "Les Java Array Lists ne sont pas magiques"
     }
 ]
 
