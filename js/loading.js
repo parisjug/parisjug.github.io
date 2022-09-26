@@ -26,12 +26,27 @@ const sentences = [
     'Où est donc la Javadoc de la classe classe AbstractAnnotationConfigDispatcherServletInitializer ? 📚',
     'Quand je reçois 0, ça fait true ou false ? 🧐',
     'Ca tourne en root mais c\'est dans un conteneur ! 🔒',
+    'Comment on augmente le PermGenSpace déjà ? 📈',
+    'Concours Twitter: 1 place pour Devoxx Be à gagner ! 🎁',
+    'Concours Twitter: 3 licences IntelliJ à gagner ! 🎁',
+    'Concours Twitter: 1 tweet avec une photo, les mentions @RemiForaxOff #parisjug pour participer 🎉'
+];
+
+const oldsentences = [
+    'Télécharge tout l\'Internet avec mvn package 🌍',
+    'Augmente &#8209;Xmx à l\'avance 🤫',
+    'Définit &#8209;Xms mais pas sûr que le live démarre plus vite 🤷‍',
+    'Ajoute &#8209;XX:+HeapDumpOnOutOfMemoryError au cas où quelque chose se passe mal 🧯',
+    'Quel est le &#8209;XX:HeapDumpPath par défaut au fait? 🤔',
+    'Où est donc la Javadoc de la classe classe AbstractAnnotationConfigDispatcherServletInitializer ? 📚',
+    'Quand je reçois 0, ça fait true ou false ? 🧐',
+    'Ca tourne en root mais c\'est dans un conteneur ! 🔒',
     'HTTP 725: ça marche sur ma machine 😎',
     'Peut-être qu\'avec un petit F5 de plus ça marche ? 🔄',
     'Est-ce qu\'on a pensé à vider le cache ? 🗑️',
     'Comment on augmente le PermGenSpace déjà ? 📈',
     'Concours Twitter: 3 licences IntelliJ à gagner ! 🎁',
-    'Concours Twitter: 1 tweet avec une photo, les mentions @titimoby @LostInBrittany #parisjug pour participer 🎉'
+    'Concours Twitter: 1 tweet avec une photo, les mentions @RemiForaxOff #parisjug pour participer 🎉'
 ];
 
 function updateTime() {
