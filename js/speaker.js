@@ -3,7 +3,7 @@ const speakers = [
         name: "Rémi Forax",
         avatar: "https://pbs.twimg.com/profile_images/3723490094/0803d7111f1d20c57b30e2d88b0377ff_400x400.jpeg",
         contact: "@RemiForaxOff",
-        title: "Enseignant chercheur à l’Université Gustave Eiffel, Java Champion"
+        title: "Enseignant chercheur à l’Université Gustave Eiffel<br/>Java Champion"
     }
 ]
 
