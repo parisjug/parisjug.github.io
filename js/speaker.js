@@ -1,9 +1,9 @@
 const speakers = [
     {
-        name: "Rémi Forax",
-        avatar: "https://pbs.twimg.com/profile_images/3723490094/0803d7111f1d20c57b30e2d88b0377ff_400x400.jpeg",
-        contact: "@RemiForaxOff",
-        title: "Enseignant chercheur à l’Université Gustave Eiffel,<br />Java Champion"
+        name: "Laurent Doguin",
+        avatar: "https://pbs.twimg.com/profile_images/1538156561880727553/jDE6dtaQ_400x400.jpg",
+        contact: "@ldoguin",
+        title: "Director Developer Relations & Strategy @couchbase"
     }
 ]
 
