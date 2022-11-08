@@ -1,9 +1,15 @@
 const speakers = [
     {
-        name: "Laurent Doguin",
-        avatar: "https://pbs.twimg.com/profile_images/1538156561880727553/jDE6dtaQ_400x400.jpg",
-        contact: "@ldoguin",
-        title: "Director Developer Relations & Strategy @couchbase"
+        name: "AlexandreTouret",
+        avatar: "https://pbs.twimg.com/profile_images/1495034252387311621/IudFZafb_400x400.jpg",
+        contact: "@touret_alex",
+        title: "Architecte et développeur sénior, Worldline"
+    },
+    {
+        name: "Jean-Francois James",
+        avatar: "https://pbs.twimg.com/profile_images/1201869350107566081/zcZed08W_400x400.jpg",
+        contact: "@jefrajames",
+        title: "Senior Software Architect, Worldline"
     }
 ]
 
