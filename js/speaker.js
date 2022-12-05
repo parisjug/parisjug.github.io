@@ -1,9 +1,9 @@
 const speakers = [
     {
-        name: "AlexandreTouret",
-        avatar: "https://pbs.twimg.com/profile_images/1495034252387311621/IudFZafb_400x400.jpg",
-        contact: "@touret_alex",
-        title: "Architecte et développeur sénior, Worldline"
+        name: "Julien Dubois",
+        avatar: "https://pbs.twimg.com/profile_images/729555955030044673/jBxOqmsB_400x400.jpg",
+        contact: "@juliendubois",
+        title: "Cloud Developer Advocate, Microsoft"
     },
     {
         name: "Jean-Francois James",
