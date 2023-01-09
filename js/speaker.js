@@ -1,15 +1,15 @@
 const speakers = [
     {
-        name: "Julien Dubois",
-        avatar: "https://pbs.twimg.com/profile_images/729555955030044673/jBxOqmsB_400x400.jpg",
-        contact: "@juliendubois",
-        title: "Cloud Developer Advocate, Microsoft"
+        name: "Christophe Agoero",
+        avatar: "https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png",
+        contact: "@c_agoero",
+        title: "19h30 : 204VS404 le duel du bon code http"
     },
     {
-        name: "Jean-Francois James",
+        name: "Pierre Cheucle",
         avatar: "/img/yb-pierre.gif",
-        contact: "@jefrajames",
-        title: "Senior Software Architect, Worldline"
+        contact: "",
+        title: "21h20 : Tech Lead REX"
     }
 ]
 
