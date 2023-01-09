@@ -7,7 +7,7 @@ const speakers = [
     },
     {
         name: "Jean-Francois James",
-        avatar: "https://pbs.twimg.com/profile_images/1201869350107566081/zcZed08W_400x400.jpg",
+        avatar: "/img/yb-pierre.gif",
         contact: "@jefrajames",
         title: "Senior Software Architect, Worldline"
     }
