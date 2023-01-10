@@ -1,33 +1,33 @@
 const speakers = [
     {
         name: "Christophe Agoero",
-        avatar: "https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png",
-        contact: "@c_agoero",
-        title: "19h30 : 204VS404 le duel du bon code http"
+        avatar: "/img/yb-christophe.png",
+        contact: "19h30 : http delete 204vs404 quand la ressource n'existe pas",
+        title: "@c_agoero"
     },
     {
         name: "Hicham Bellahcene",
         avatar: "https://pbs.twimg.com/profile_images/1490013462881357827/Vv_J66Kg_400x400.png",
-        contact: "@hbellahc",
-        title: "19h50 : Using lambda with Java Streams"
+        contact: "19h50 : Using lambda with Java Streams",
+        title: "@hbellahc"
     },
     {
         name: "Coline Therial",
         avatar: "/img/yb-coline.jpg",
-        contact: "",
-        title: "20h10 : Faire du web ou du mobile ? Et pourquoi pas les deux !"
+        contact: "20h10 : Faire du web ou du mobile ? Et pourquoi pas les deux !",
+        title: ""
     },
     {
         name: "Martin Pernollet",
         avatar: "/img/yb-martin.jpg",
-        contact: "",
-        title: "21h00 : Avenir du rendu 3D sur la JVM avec Panama (JEP-412)"
+        contact: "21h00 : Avenir du rendu 3D sur la JVM avec Panama (JEP-412)",
+        title: ""
     },
     {
         name: "Pierre Cheucle",
         avatar: "/img/yb-pierre.gif",
-        contact: "",
-        title: "21h20 : Tech Lead REX"
+        contact: "21h20 : Tech Lead REX",
+        title: ""
     }
 ]
 
