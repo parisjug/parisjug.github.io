@@ -2,14 +2,14 @@ const speakers = [
     {
         name: "Christophe Agoero",
         avatar: "/img/yb-christophe.png",
-        contact: "19h30 : http delete 204vs404 quand la ressource n'existe pas",
-        title: "@c_agoero"
+        contact: "19h30 : HTTP Delete 204vs404 quand la ressource n'existe pas",
+        title: ""
     },
     {
         name: "Hicham Bellahcene",
         avatar: "https://pbs.twimg.com/profile_images/1490013462881357827/Vv_J66Kg_400x400.png",
         contact: "19h50 : Using lambda with Java Streams",
-        title: "@hbellahc"
+        title: ""
     },
     {
         name: "Coline Therial",
