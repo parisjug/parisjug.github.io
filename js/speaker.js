@@ -1,34 +1,10 @@
 const speakers = [
     {
-        name: "Christophe Agoero",
-        avatar: "/img/yb-christophe.png",
-        contact: "19h30 : HTTP Delete 204vs404 quand la ressource n'existe pas",
-        title: ""
+        name: "Sylvain Wallez",
+        avatar: "https://pbs.twimg.com/profile_images/568183848706379776/-WvGr4jS_400x400.jpeg",
+        contact: "@bluxte",
+        title: "Lead developer chez Elastic"
     },
-    {
-        name: "Hicham Bellahcene",
-        avatar: "https://pbs.twimg.com/profile_images/1490013462881357827/Vv_J66Kg_400x400.png",
-        contact: "19h50 : Using lambda with Java Streams",
-        title: ""
-    },
-    {
-        name: "Coline Therial",
-        avatar: "/img/yb-coline.jpg",
-        contact: "20h10 : Faire du web ou du mobile ? Et pourquoi pas les deux !",
-        title: ""
-    },
-    {
-        name: "Martin Pernollet",
-        avatar: "/img/yb-martin.jpg",
-        contact: "21h00 : Avenir du rendu 3D sur la JVM avec Panama (JEP-412)",
-        title: ""
-    },
-    {
-        name: "Pierre Cheucle",
-        avatar: "/img/yb-pierre.gif",
-        contact: "21h20 : Tech Lead REX",
-        title: ""
-    }
 ]
 
 function loadSpeaker(speaker) {
