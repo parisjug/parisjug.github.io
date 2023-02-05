@@ -27,8 +27,9 @@ const sentences = [
     'Quand je reçois 0, ça fait true ou false ? 🧐',
     'Ca tourne en root mais c\'est dans un conteneur ! 🔒',
     'Comment on augmente le PermGenSpace déjà ? 📈',
- //   'Concours Twitter: 3 licences IntelliJ à gagner ! 🎁',
- //   'Concours Twitter: 1 tweet avec une photo, la mention @juliendubois #parisjug pour participer 🎉'
+    'Concours Twitter: 2 places pour Kubernetes Community Days France 2023 à gagner ! 🎁',
+    'Concours Twitter: 3 licences IntelliJ à gagner ! 🎁',
+    'Concours Twitter: 1 tweet avec une photo, la mention @bluxte #parisjug pour participer 🎉'
 ];
 
 
