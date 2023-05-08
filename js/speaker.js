@@ -1,9 +1,15 @@
 const speakers = [
     {
-        name: "Sylvain Wallez",
-        avatar: "https://pbs.twimg.com/profile_images/568183848706379776/-WvGr4jS_400x400.jpeg",
-        contact: "@bluxte",
-        title: "Lead developer chez Elastic"
+        name: "Sébastien Blanc",
+        avatar: "https://pbs.twimg.com/profile_images/1588539610489126913/68Synunh_400x400.jpg",
+        contact: "@sebi2706",
+        title: "Staff Developer Advocate, Aiven"
+    },
+    {
+        name: "Stéphane Philippart",
+        avatar: "https://pbs.twimg.com/profile_images/1262830949143908354/Q-jPW2eH_400x400.png",
+        contact: "@wildagsx",
+        title: "DevRel, OVHcloud"
     },
 ]
 
