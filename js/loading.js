@@ -28,8 +28,7 @@ const sentences = [
     'Ca tourne en root mais c\'est dans un conteneur ! 🔒',
     'Comment on augmente le PermGenSpace déjà ? 📈',
     'Concours Twitter: 3 licences IntelliJ à gagner ! 🎁',
-    'Concours Twitter: 2 places pour Kubernetes Community Days France 2023 à gagner ! 🎁',
-    'Concours Twitter: 1 tweet avec une photo, la mention @bluxte #parisjug pour participer 🎉'
+    'Concours Twitter: 1 tweet avec une photo, la mention @wildagsx et @sebi2706 #parisjug pour participer 🎉'
 ];
 
 function updateTime() {
