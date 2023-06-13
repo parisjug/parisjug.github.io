@@ -26,9 +26,7 @@ const sentences = [
     'Où est donc la Javadoc de la classe classe AbstractAnnotationConfigDispatcherServletInitializer ? 📚',
     'Quand je reçois 0, ça fait true ou false ? 🧐',
     'Ca tourne en root mais c\'est dans un conteneur ! 🔒',
-    'Comment on augmente le PermGenSpace déjà ? 📈',
-    'Concours Twitter: 3 licences IntelliJ à gagner ! 🎁',
-    'Concours Twitter: 1 tweet avec une photo, la mention @wildagsx et @sebi2706 #parisjug pour participer 🎉'
+    'Comment on augmente le PermGenSpace déjà ? 📈'
 ];
 
 function updateTime() {
