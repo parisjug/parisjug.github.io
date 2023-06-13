@@ -1,15 +1,21 @@
 const speakers = [
     {
-        name: "Sébastien Blanc",
-        avatar: "https://pbs.twimg.com/profile_images/1588539610489126913/68Synunh_400x400.jpg",
-        contact: "@sebi2706",
-        title: "Staff Developer Advocate, Aiven"
+        name: "Cyrille Le Clerc",
+        avatar: "https://pbs.twimg.com/profile_images/573071024217985025/dBAgYo9m_400x400.jpeg",
+        contact: "@cyrilleleclerc",
+        title: "Product Director, Grafana Labs"
     },
     {
-        name: "Stéphane Philippart",
-        avatar: "https://pbs.twimg.com/profile_images/1262830949143908354/Q-jPW2eH_400x400.png",
-        contact: "@wildagsx",
-        title: "DevRel, OVHcloud"
+        name: "Vincent Behar",
+        avatar: "https://pbs.twimg.com/profile_images/1521029841755287553/2HFIfLMg_400x400.jpg",
+        contact: "@vbehar",
+        title: "Dev, Ubisoft"
+    },
+        {
+        name: "Bruce Bujon",
+        avatar: "https://pbs.twimg.com/profile_images/598846876851535872/kIuVtgMY_400x400.png",
+        contact: "@HardCoding",
+        title: "Software Engineer, Datadog"
     },
 ]
 
