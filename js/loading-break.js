@@ -1,5 +1,5 @@
-const start = new Date().setHours(20, 30, 0, 0);
-const end = new Date().setHours(21, 0, 0, 0); // Today at 7:30pm
+const start = new Date().setHours(20, 15, 0, 0);
+const end = new Date().setHours(20,45, 0, 0); // Today at 7:30pm
 const steps = 30;
 const stepDuration = (end - start) / steps;
 
@@ -27,9 +27,6 @@ const sentences = [
     'Quand je reçois 0, ça fait true ou false ? 🧐',
     'Ca tourne en root mais c\'est dans un conteneur ! 🔒',
     'Comment on augmente le PermGenSpace déjà ? 📈',
-    'Concours Twitter: 2 places pour Kubernetes Community Days France 2023 à gagner ! 🎁',
-    'Concours Twitter: 3 licences IntelliJ à gagner ! 🎁',
-    'Concours Twitter: 1 tweet avec une photo, la mention @bluxte #parisjug pour participer 🎉'
 ];
 
 
