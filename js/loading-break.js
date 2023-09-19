@@ -1,5 +1,5 @@
-const start = new Date().setHours(20, 15, 0, 0);
-const end = new Date().setHours(20,45, 0, 0); // Today at 7:30pm
+const start = new Date().setHours(20, 30, 0, 0);
+const end = new Date().setHours(21, 00, 0, 0); // Today at 9pm
 const steps = 30;
 const stepDuration = (end - start) / steps;
 
