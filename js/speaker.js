@@ -1,21 +1,9 @@
 const speakers = [
     {
-        name: "Cyrille Le Clerc",
-        avatar: "https://pbs.twimg.com/profile_images/573071024217985025/dBAgYo9m_400x400.jpeg",
-        contact: "@cyrilleleclerc",
-        title: "Product Director, Grafana Labs"
-    },
-    {
-        name: "Vincent Behar",
-        avatar: "https://pbs.twimg.com/profile_images/1521029841755287553/2HFIfLMg_400x400.jpg",
-        contact: "@vbehar",
-        title: "Dev, Ubisoft"
-    },
-        {
-        name: "Bruce Bujon",
-        avatar: "https://pbs.twimg.com/profile_images/598846876851535872/kIuVtgMY_400x400.png",
-        contact: "@HardCoding",
-        title: "Software Engineer, Datadog"
+        name: "Rémi Forax",
+        avatar: "https://pbs.twimg.com/profile_images/3723490094/0803d7111f1d20c57b30e2d88b0377ff_400x400.jpeg",
+        contact: "",
+        title: "Maître de conférences à l’université Paris-Est - Marne-la-Vallée"
     },
 ]
 
