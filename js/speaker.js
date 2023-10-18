@@ -1,9 +1,9 @@
 const speakers = [
     {
-        name: "Rémi Forax",
-        avatar: "https://pbs.twimg.com/profile_images/3723490094/0803d7111f1d20c57b30e2d88b0377ff_400x400.jpeg",
-        contact: "",
-        title: "Maître de conférences à l’université Paris-Est - Marne-la-Vallée"
+        name: "Mazlum Tosun",
+        avatar: "https://pbs.twimg.com/profile_images/1706329431768260608/IguGoNQJ_400x400.jpg",
+        contact: "@MazlumTosun3",
+        title: "CoFounder Head of Cloud GroupBees"
     },
 ]
 
