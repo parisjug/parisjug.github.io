@@ -1,9 +1,19 @@
 const speakers = [
     {
-        name: "Mazlum Tosun",
-        avatar: "https://pbs.twimg.com/profile_images/1706329431768260608/IguGoNQJ_400x400.jpg",
-        contact: "@MazlumTosun3",
-        title: "CoFounder Head of Cloud GroupBees"
+        name: "Jean-François James",
+        avatar: "https://pbs.twimg.com/profile_images/1201869350107566081/zcZed08W_400x400.jpg",
+        contact: "@jefrajames",
+        title: "Software Architect, Distinguished Expert at Worldline"
+    },
+    {
+        name: "David Pequegnot",
+        avatar: "https://pbs.twimg.com/profile_images/960495789008146432/nLFmC1um_400x400.jpg",
+        contact: "@foxlegend",
+        title: "Performance Engineer chez Wordline"
+    },
+    {
+        name: "François Joubaud",
+        title: "Dev leader chez Worldline"
     },
 ]
 
