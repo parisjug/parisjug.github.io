@@ -1,20 +1,16 @@
 const speakers = [
     {
-        name: "Jean-François James",
-        avatar: "https://pbs.twimg.com/profile_images/1201869350107566081/zcZed08W_400x400.jpg",
-        contact: "@jefrajames",
-        title: "Software Architect, Distinguished Expert at Worldline"
+        name: "Martin Pernollet",
+        avatar: "https://pbs.twimg.com/profile_images/3728021699/2f77db7831b4e638a72de3bbb0a5d263_400x400.png",
+        contact: "@jzy3d",
+        title: "Ingénieur en visualisation de données scientifiques et mainteneur de Jzy3D"
     },
     {
-        name: "David Pequegnot",
-        avatar: "https://pbs.twimg.com/profile_images/960495789008146432/nLFmC1um_400x400.jpg",
-        contact: "@foxlegend",
-        title: "Performance Engineer chez Wordline"
-    },
-    {
-        name: "François Joubaud",
-        title: "Dev leader chez Worldline"
-    },
+        name: "Brice Dutheil",
+        avatar: "https://pbs.twimg.com/profile_images/1128275334/blacksad_medium_400x400.jpg",
+        contact: "@BriceDutheil",
+        title: "Ingénieur logiciel chez Datadog"
+    }
 ]
 
 function loadSpeaker(speaker) {
