@@ -1,15 +1,15 @@
 const speakers = [
     {
-        name: "Martin Pernollet",
-        avatar: "https://pbs.twimg.com/profile_images/3728021699/2f77db7831b4e638a72de3bbb0a5d263_400x400.png",
-        contact: "@jzy3d",
-        title: "Ingénieur en visualisation de données scientifiques et mainteneur de Jzy3D"
+        name: "Laurent Broudoux",
+        avatar: "https://pbs.twimg.com/profile_images/893039638071320577/4YP9KXnZ_400x400.jpg",
+        contact: "@lbroudoux",
+        title: "Architecte, Microcks founder"
     },
     {
-        name: "Brice Dutheil",
-        avatar: "https://pbs.twimg.com/profile_images/1128275334/blacksad_medium_400x400.jpg",
-        contact: "@BriceDutheil",
-        title: "Ingénieur logiciel chez Datadog"
+        name: "Rafik Ferroukh",
+        avatar: "https://pbs.twimg.com/profile_images/1042305319718801408/0-q_KfA3_400x400.jpg",
+        contact: "@rafikFerroukh",
+        title: "Software Architect chez Allianz Technology France"
     }
 ]
 
