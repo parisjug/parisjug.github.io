@@ -1,15 +1,15 @@
 const speakers = [
     {
-        name: "Laurent Broudoux",
-        avatar: "https://pbs.twimg.com/profile_images/893039638071320577/4YP9KXnZ_400x400.jpg",
-        contact: "@lbroudoux",
-        title: "Architecte, Microcks founder"
+        name: "Ricken BAZOLO",
+        avatar: "https://pbs.twimg.com/profile_images/1060715337551921162/--QkkMo8_400x400.jpg",
+        contact: "@rickenbrice",
+        title: "Technologue Java sénior"
     },
     {
-        name: "Rafik Ferroukh",
-        avatar: "https://pbs.twimg.com/profile_images/1042305319718801408/0-q_KfA3_400x400.jpg",
-        contact: "@rafikFerroukh",
-        title: "Software Architect chez Allianz Technology France"
+        name: "Jean-François James",
+        avatar: "https://pbs.twimg.com/profile_images/1201869350107566081/zcZed08W_400x400.jpg",
+        contact: "@jefrajames",
+        title: "Software Architect, Distinguished Expert at Worldline"
     }
 ]
 
