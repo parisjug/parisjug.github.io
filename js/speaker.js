@@ -1,15 +1,12 @@
 const speakers = [
     {
-        name: "Ricken BAZOLO",
-        avatar: "https://pbs.twimg.com/profile_images/1060715337551921162/--QkkMo8_400x400.jpg",
-        contact: "@rickenbrice",
-        title: "Technologue Java sénior"
+        name: "Paul Le Guillou",
+        title: "Evangéliste chez BforBank"
     },
     {
-        name: "Jean-François James",
-        avatar: "https://pbs.twimg.com/profile_images/1201869350107566081/zcZed08W_400x400.jpg",
-        contact: "@jefrajames",
-        title: "Software Architect, Distinguished Expert at Worldline"
+        name: "Hervé Letourneur",
+        avatar: "https://meritis.fr/wp-content/uploads/2024/06/photo-herve-letourneredited-478x480.jpg.webp",
+        title: "Développeur Java chez Meritis"
     }
 ]
 
