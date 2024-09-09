@@ -1,12 +1,9 @@
 const speakers = [
     {
-        name: "Paul Le Guillou",
-        title: "Evangéliste chez BforBank"
-    },
-    {
-        name: "Hervé Letourneur",
-        avatar: "https://meritis.fr/wp-content/uploads/2024/06/photo-herve-letourneredited-478x480.jpg.webp",
-        title: "Développeur Java chez Meritis"
+        name: "Simon Ritter",
+        title: "Deputy CTO at @AzulSystems",
+        contact: "@speakjava",
+        avatar: "https://pbs.twimg.com/profile_images/1526915578253934592/P2LxtdAr_400x400.jpg"
     }
 ]
 
