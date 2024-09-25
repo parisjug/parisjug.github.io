@@ -1,10 +1,16 @@
 const speakers = [
     {
-        name: "Simon Ritter",
-        title: "Deputy CTO at @AzulSystems",
-        contact: "@speakjava",
-        avatar: "https://pbs.twimg.com/profile_images/1526915578253934592/P2LxtdAr_400x400.jpg"
-    }
+        name: "Sun Tan",
+        title: "Super developer at Sciam",
+        contact: "@__sunix_",
+        avatar: "https://pbs.twimg.com/profile_images/1640301246123761664/aVIYwE4b_400x400.jpg"
+    },
+    {
+        name: "Charles Sabourdin",
+        title: "Super great developer at Sciam",
+        contact: "@kanedafromparis",
+        avatar: "https://pbs.twimg.com/profile_images/852073008772648960/OHbbEu8Y_400x400.jpg"
+    }, 
 ]
 
 function loadSpeaker(speaker) {
