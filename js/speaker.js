@@ -1,22 +1,16 @@
 const speakers = [
     {
-        name: "Alban Clevy",
-        title: "développeur, chef de projet, responsable d’équipe, architecte, techlead",
+        name: "Jean-Michel Fayard",
+        title: "Tech lead chez Sciam",
         contact: "",
-        avatar: "https://pbs.twimg.com/profile_images/1268663631413215235/VSq2QFAV_400x400.jpg"
+        avatar: "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa245d2d0-115c-4e81-aa2d-bad59df80288_1280x1280.jpeg"
     },
     {
-        name: "Hervé Letourneur",
-        title: "Practice Leader Java",
-        contact: "",
-        avatar: "https://pbs.twimg.com/profile_images/1268663631413215235/VSq2QFAV_400x400.jpg"
-    }, 
-    {
-        name: "Christophe Agoero",
-        title: "Architecte Java",
-        contact: "",
-        avatar: "https://www.parisjug.org/about/introduction/christophe-agoero.png"
-    }, 
+        name: "Yassine Benabba",
+        title: "DevRel @ Worldline",
+        contact: "@yostane",
+        avatar: "https://pbs.twimg.com/profile_images/1721472907153440768/XrZKlFuQ_400x400.jpg"
+    }
 ]
 
 function loadSpeaker(speaker) {
