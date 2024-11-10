@@ -1,0 +1,13 @@
+{
+    "event": "Soirée Gradle et Kotlin",
+    "talks": [
+        {
+            "title": "Gradle pour les utilisateurs de Maven",
+            "speaker": "Jean-Michel"
+        },
+        {
+            "title": "Tour d'horizon de Kotlin et de son écosystème",
+            "speaker": "Yassine"
+        }
+    ]
+}
