@@ -26,37 +26,48 @@
         <div class="event-title" id="event-title">Loading event...</div>
     </div>
     <script>
-        fetch('event.json')
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('event-title').innerText = data.event;
+        function fetchEventData() {
+            fetch('event.json')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('event-title').innerText = data.event;
 
-                const eventDetails = document.getElementById('event-details');
-                data.talks.forEach((talk, index) => {
-                    const talkTitle = document.createElement('div');
-                    talkTitle.className = 'talk-title';
-                    talkTitle.id = `talk${index + 1}-title`;
-                    talkTitle.innerText = talk.title;
-                    eventDetails.appendChild(talkTitle);
+                    const eventDetails = document.getElementById('event-details');
+                    // Clear existing talk details
+                    eventDetails.querySelectorAll('.talk-title, .speaker').forEach(element => element.remove());
 
-                    const speaker = document.createElement('div');
-                    speaker.className = 'speaker';
-                    speaker.id = `talk${index + 1}-speaker`;
-                    speaker.innerText = talk.speaker;
-                    eventDetails.appendChild(speaker);
-                });
+                    data.talks.forEach((talk, index) => {
+                        const talkTitle = document.createElement('div');
+                        talkTitle.className = 'talk-title';
+                        talkTitle.id = `talk${index + 1}-title`;
+                        talkTitle.innerText = talk.title;
+                        eventDetails.appendChild(talkTitle);
 
-                // Check URL fragment and display only the relevant section
-                const fragment = window.location.hash.substring(1);
-                if (fragment) {
-                    document.querySelectorAll('#event-details > div').forEach(element => {
-                        if (element.id !== fragment) {
-                            element.style.display = 'none';
-                        }
+                        const speaker = document.createElement('div');
+                        speaker.className = 'speaker';
+                        speaker.id = `talk${index + 1}-speaker`;
+                        speaker.innerText = talk.speaker;
+                        eventDetails.appendChild(speaker);
                     });
-                }
-            })
-            .catch(error => console.error('Error fetching the JSON:', error));
+
+                    // Check URL fragment and display only the relevant section
+                    const fragment = window.location.hash.substring(1);
+                    if (fragment) {
+                        document.querySelectorAll('#event-details > div').forEach(element => {
+                            if (element.id !== fragment) {
+                                element.style.display = 'none';
+                            }
+                        });
+                    }
+                })
+                .catch(error => console.error('Error fetching the JSON:', error));
+        }
+
+        // Fetch event data initially
+        fetchEventData();
+
+        // Refresh event data every 10 seconds
+        setInterval(fetchEventData, 10000);
     </script>
 </body>
 </html>
