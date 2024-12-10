@@ -9,7 +9,7 @@ const speakers = [
         name: "Jeff MAURY",
         title: " ngineering Manager - Principal Software Engineer at Red Hat",
         contact: "@jeffmaury.bsky.social",
-        avatar: "https://media.licdn.com/dms/image/v2/C4E03AQERuGvh0IDX-w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516197439100?e=1739404800&v=beta&t=WKgu7NOoybdw22RuQzM7apORltwLS3oWvrNIz-Z1E8M"
+        avatar: "https://cdn.bsky.app/img/avatar/plain/did:plc:dg47pxyhikcyugtnobznltfy/bafkreifxttj7kx325kzjuwcnd6t5y4xnmsre4hwsds4ra2n64iaafbg5vm@jpeg"
     }
 ]
 
