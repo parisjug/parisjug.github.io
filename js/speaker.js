@@ -1,15 +1,15 @@
 const speakers = [
     {
-        name: "Jean-Michel Fayard",
-        title: "Tech lead chez Sciam",
-        contact: "",
-        avatar: "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa245d2d0-115c-4e81-aa2d-bad59df80288_1280x1280.jpeg"
+        name: "Mario Loriedo",
+        title: "Senior Principal Software Engineer at Red Hat - CNCF Ambassador",
+        contact: "@mariolet.bsky.social",
+        avatar: "https://media.licdn.com/dms/image/v2/D4E03AQFePnX7H9guMg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1682678678752?e=1739404800&v=beta&t=D1krNzdzUIO2qYVj3UVzyhjBdtQJYXi0TU0JQVNvzkw"
     },
     {
-        name: "Yassine Benabba",
-        title: "DevRel @ Worldline",
-        contact: "@yostane",
-        avatar: "https://pbs.twimg.com/profile_images/1721472907153440768/XrZKlFuQ_400x400.jpg"
+        name: "Jeff MAURY",
+        title: " ngineering Manager - Principal Software Engineer at Red Hat",
+        contact: "@jeffmaury.bsky.social",
+        avatar: "https://media.licdn.com/dms/image/v2/C4E03AQERuGvh0IDX-w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516197439100?e=1739404800&v=beta&t=WKgu7NOoybdw22RuQzM7apORltwLS3oWvrNIz-Z1E8M"
     }
 ]
 
