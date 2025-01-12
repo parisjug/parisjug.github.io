@@ -1,13 +1,29 @@
 {
-    "event": "Soirée Gradle et Kotlin",
+    "event": "Soirée ParisJUG Academy 2025",
     "talks": [
         {
-            "title": "Gradle pour les utilisateurs de Maven",
-            "speaker": "Jean-Michel"
+            "title": "Nous avons besoin de vous sur Quarkus Cucumber",
+            "speaker": "Said"
         },
         {
-            "title": "Tour d'horizon de Kotlin et de son écosystème",
-            "speaker": "Yassine"
+            "title": "De la modélisation à la mise en production : Automatisation des workflows avec Camunda et Spring Boot",
+            "speaker": "Salah"
+        },
+        {
+            "title": "How to test asynchronous code",
+            "speaker": "Salathiel"
+        },
+        {
+            "title": "Nightmares and Awakening Java Platform Module System",
+            "speaker": "Salah"
+        },
+        {
+            "title": "Reprenez le contrôle de votre stack back !",
+            "speaker": "Marc"
+        },
+        {
+            "title": "Apprenez votre IA à faire du TDD",
+            "speaker": "Manuel"
         }
     ]
 }
