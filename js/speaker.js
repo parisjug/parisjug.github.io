@@ -1,15 +1,15 @@
 const speakers = [
     {
-        name: "Mario Loriedo",
-        title: "Senior Principal Software Engineer at Red Hat - CNCF Ambassador",
-        contact: "@mariolet.bsky.social",
-        avatar: "https://media.licdn.com/dms/image/v2/D4E03AQFePnX7H9guMg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1682678678752?e=1739404800&v=beta&t=D1krNzdzUIO2qYVj3UVzyhjBdtQJYXi0TU0JQVNvzkw"
+        name: "Jean-Philippe Bempel",
+        title: "Senior Software Engineer chez Datadog",
+        contact: "@jpbempel.bsky.social",
+        avatar: "https://pbs.twimg.com/profile_images/1019190216995811328/YARM51Fl_400x400.jpg"
     },
     {
-        name: "Jeff MAURY",
-        title: " ngineering Manager - Principal Software Engineer at Red Hat",
-        contact: "@jeffmaury.bsky.social",
-        avatar: "https://cdn.bsky.app/img/avatar/plain/did:plc:dg47pxyhikcyugtnobznltfy/bafkreifxttj7kx325kzjuwcnd6t5y4xnmsre4hwsds4ra2n64iaafbg5vm@jpeg"
+        name: "William Montaz",
+        title: "SRE chez Criteo",
+        contact: "@willymontaz",
+        avatar: "https://pbs.twimg.com/profile_images/535013706048864256/rkvDpOhg_400x400.jpeg"
     }
 ]
 
