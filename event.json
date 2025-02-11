@@ -1,29 +1,13 @@
 {
-    "event": "Soirée ParisJUG Academy 2025",
+    "event": "Soirée troubleshooting en production",
     "talks": [
         {
-            "title": "Nous avons besoin de vous sur Quarkus Cucumber",
-            "speaker": "Said"
+            "title": "Comment debugger en production ?",
+            "speaker": "Jean-Philippe Bempel"
         },
         {
-            "title": "De la modélisation à la mise en production : Automatisation des workflows avec Camunda et Spring Boot",
-            "speaker": "Salah"
-        },
-        {
-            "title": "How to test asynchronous code",
-            "speaker": "Yifang"
-        },
-        {
-            "title": "JPMS - Nightmares and Awakening Java Platform Module System",
-            "speaker": "Salathiel"
-        },
-        {
-            "title": "GlobsFramework",
-            "speaker": "Marc"
-        },
-        {
-            "title": "Apprenez votre IA à faire du TDD",
-            "speaker": "Manuel"
+            "title": "Trouver la vérité dans un océan de complexité",
+            "speaker": "William Montaz"
         }
     ]
 }
