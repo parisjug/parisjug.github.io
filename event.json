@@ -1,13 +1,13 @@
 {
-    "event": "Soirée troubleshooting en production",
+    "event": "Soirée Dagger et clavier",
     "talks": [
         {
-            "title": "Comment debugger en production ?",
-            "speaker": "Jean-Philippe Bempel"
+            "title": "Dagger Modules : un couteau suisse pour moderniser vos pipelines de CI/CD",
+            "speaker": "Jean-Christophe Sirot"
         },
         {
-            "title": "Trouver la vérité dans un océan de complexité",
-            "speaker": "William Montaz"
+            "title": "DIY et ergonomie, fabriquer son clavier de A à Z(erty)",
+            "speaker": "Bruce Bujon"
         }
     ]
 }
