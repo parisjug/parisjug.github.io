@@ -1,13 +1,13 @@
 {
-    "event": "Soirée Dagger et clavier",
+    "event": "Soirée Model Context Protocol (MCP) et SSDLC avec GitLab",
     "talks": [
         {
-            "title": "Dagger Modules : un couteau suisse pour moderniser vos pipelines de CI/CD",
-            "speaker": "Jean-Christophe Sirot"
+            "title": "MCP en action - Connecter les IA aux systèmes d’entreprise",
+            "speaker": "Zineb Bendhiba"
         },
         {
-            "title": "DIY et ergonomie, fabriquer son clavier de A à Z(erty)",
-            "speaker": "Bruce Bujon"
+            "title": "DevSecOps avec GitLab",
+            "speaker": "Salahddine Aberkan"
         }
     ]
 }
