@@ -1,15 +1,15 @@
 const speakers = [
     {
-        name: "Jean-Christophe Sirot",
-        title: "Staff engineer chez Decathlon",
-        contact: "@sirot.org",
-        avatar: "https://cdn.bsky.app/img/avatar/plain/did:plc:3n634emyl24rng73wrsrcqef/bafkreic7qle5gqsrjch6zb25x7nx3mmcbr2j3j4jf25o4l3zjcm2yul7qu@jpeg"
+        name: "Zineb Bendhiba",
+        title: "Principal Software Engineer chez Red Hat",
+        contact: "@zinebbendhiba.com",
+        avatar: "https://cdn.bsky.app/img/avatar/plain/did:plc:7i5tlbxe74nfnuvzrvymap5m/bafkreihz2t6bllsd7zu7tfr3kuzcfscehd2wbukni7czgrfe36ccasq2kq@jpeg"
     },
     {
-        name: "Bruce Bujon",
-        title: "Senior Software Engineer chez Datadog",
-        contact: "@hardcoding.fr",
-        avatar: "https://cdn.bsky.app/img/avatar/plain/did:plc:unv2ly5becx5ykia5urtgdz4/bafkreigg3zv3ifian4hugilmdldoblnt5i37qqd226pmur3aqeyrobasl4@jpeg"
+        name: "Salahddine Aberkan",
+        title: "Solutions Architect chez Gitlab",
+        contact: "",
+        avatar: "https://media.licdn.com/dms/image/v2/D4E03AQGWjrcbrUOVlw/profile-displayphoto-shrink_800_800/B4EZUFjkcJHMAc-/0/1739554966623?e=1752710400&v=beta&t=-K7MBWNYD9JG01KBXajxEZBHFvHb_4lmgpZJuasKBIU"
     }
 ]
 
