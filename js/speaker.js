@@ -1,15 +1,15 @@
 const speakers = [
     {
-        name: "Zineb Bendhiba",
-        title: "Principal Software Engineer chez Red Hat",
-        contact: "@zinebbendhiba.com",
-        avatar: "https://cdn.bsky.app/img/avatar/plain/did:plc:7i5tlbxe74nfnuvzrvymap5m/bafkreihz2t6bllsd7zu7tfr3kuzcfscehd2wbukni7czgrfe36ccasq2kq@jpeg"
+        name: "Louis Jacomet",
+        title: "Senior Lead Software Engineer at Gradle Inc.",
+        contact: "@ljacomet",
+        avatar: "https://avatars.githubusercontent.com/u/135308?v=4"
     },
     {
-        name: "Salahddine Aberkan",
-        title: "Solutions Architect chez Gitlab",
-        contact: "",
-        avatar: "https://media.licdn.com/dms/image/v2/D4E03AQGWjrcbrUOVlw/profile-displayphoto-shrink_800_800/B4EZUFjkcJHMAc-/0/1739554966623?e=1752710400&v=beta&t=-K7MBWNYD9JG01KBXajxEZBHFvHb_4lmgpZJuasKBIU"
+        name: "Trisha Gee",
+        title: "Developer Advocate @ Gradle",
+        contact: "@trisha_gee",
+        avatar: "https://pbs.twimg.com/profile_images/1804074546808356865/MpWpJPba_400x400.jpg"
     }
 ]
 

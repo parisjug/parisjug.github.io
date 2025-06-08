@@ -1,13 +1,13 @@
 {
-    "event": "Soirée MCP et SSDLC",
+    "event": "Soirée Gradle and Develocity",
     "talks": [
         {
-            "title": "MCP en action - Connecter les IA aux systèmes d’entreprise",
-            "speaker": "Zineb Bendhiba"
+            "title": "Gradle",
+            "speaker": "Louis Jacomet"
         },
         {
             "title": "DevSecOps avec GitLab",
-            "speaker": "Salahddine Aberkan"
+            "speaker": "Develocity (en/US)"
         }
     ]
 }
