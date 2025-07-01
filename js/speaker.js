@@ -14,7 +14,7 @@ const speakers = [
     {
         name: "Ludovic Dubost",
         title: "Founder and CEO of XWiki SAS",
-        contact: "https://framapiaf.org/@ldubost",
+        contact: "framapiaf.org/@ldubost",
         avatar: "https://media.licdn.com/dms/image/v2/C4E03AQHVp9cB2Qho-Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516187646873?e=1756944000&v=beta&t=Iz54PgQZUYu_Bu077qIR9Xkyixlz_rrjwLGuEtHpQig"
     },
     {
