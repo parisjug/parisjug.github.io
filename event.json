@@ -1,13 +1,17 @@
 {
-    "event": "Soirée Gradle and Develocity",
+    "event": "Soirée Tools in Action",
     "talks": [
         {
-            "title": "Gradle",
-            "speaker": "Louis Jacomet"
+            "title": "Voyage au bout des APIs IO de Linux (de “poll” à “io uring”)",
+            "speaker": "Youssef et Jean-Eudes"
         },
         {
-            "title": "DevSecOps avec GitLab",
-            "speaker": "Develocity (en/US)"
+            "title": "CryptPad, Tools in action 9 ans après, une suite complète chiffrée de bout en bout",
+            "speaker": "Ludovic et Fabrice"
+        },
+        {
+            "title": "Les Agents IA en pleine action avec ADK",
+            "speaker": "Guillaume Laforge"
         }
     ]
 }
