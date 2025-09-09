@@ -1,17 +1,13 @@
 {
-    "event": "Soirée Tools in Action",
+    "event": "Soirée Java 25",
     "talks": [
         {
-            "title": "Voyage au bout des APIs IO de Linux (de “poll” à “io uring”)",
-            "speaker": "Youssef et Jean-Eudes"
+            "title": "Java 25, en long en large et surtout en travers",
+            "speaker": "Rémi Forax"
         },
         {
-            "title": "CryptPad, Tools in action 9 ans après, une suite complète chiffrée de bout en bout",
-            "speaker": "Ludovic et Fabrice"
-        },
-        {
-            "title": "Les Agents IA en pleine action avec ADK",
-            "speaker": "Guillaume Laforge"
+            "title": "Java 25, en long en large et surtout en travers - suite",
+            "speaker": "Rémi Forax"
         }
     ]
 }
