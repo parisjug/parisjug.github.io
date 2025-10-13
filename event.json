@@ -1,13 +1,13 @@
 {
-    "event": "Soirée Java 25",
+    "event": "Soirée n8n et DuckDB",
     "talks": [
         {
-            "title": "Java 25, en long en large et surtout en travers",
-            "speaker": "Rémi Forax"
+            "title": "Introduction à n8n et son utilisation en entreprise",
+            "speaker": "Nayel Ferai"
         },
         {
-            "title": "Java 25, en long en large et surtout en travers - suite",
-            "speaker": "Rémi Forax"
+            "title": "DuckDB, le canard qui a révolutionné le Datalake",
+            "speaker": "Vincent Heuschling"
         }
     ]
 }
