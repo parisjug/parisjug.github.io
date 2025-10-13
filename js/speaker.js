@@ -1,9 +1,15 @@
 const speakers = [
     {
-        name: "Remi Forax",
-        title: "Maitre de conférence à l’université Paris Est - Marne la Vallée - Gustave-Eiffel",
+        name: "Nayel Ferai",
+        title: "Co-fondateur de Flowlab",
         contact: "",
-        avatar: "https://fosdem.org/2025/schedule/speaker/remi_forax/adcb0189aa68cf220291bd196b4f7fb2999ddc5d73448c70e0340ac071329cb3.jpg"
+        avatar: "https://media.licdn.com/dms/image/v2/D4E03AQE1d5tDoauhlA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1695636471485?e=1762992000&v=beta&t=bRrQgzURNwOKHOVboOXxvQeeFiEGJwrF2PS8Xhn9M2c"
+    },
+    {
+        name: "Vincent Heuschling",
+        title: "Fondateur de DataTask et du podcast BigDataHebdo",
+        contact: "@vhe74",
+        avatar: "https://media.licdn.com/dms/image/v2/C4E03AQGq9efo2bBgXQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516230536088?e=1762992000&v=beta&t=HsZAJeUC4lRkCn6OU7qdfMfTs-vgDZNw4GyAxYGhLnw"
     }
 ]
 
