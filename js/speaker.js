@@ -1,15 +1,15 @@
 const speakers = [
     {
-        name: "Nayel Ferai",
-        title: "Co-fondateur de Flowlab",
-        contact: "",
-        avatar: "https://media.licdn.com/dms/image/v2/D4E03AQE1d5tDoauhlA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1695636471485?e=1762992000&v=beta&t=bRrQgzURNwOKHOVboOXxvQeeFiEGJwrF2PS8Xhn9M2c"
+        name: "Cyrille Martraire",
+        title: "CTO co-fondateur de la société Arolla",
+        contact: "@cyriux",
+        avatar: "https://pbs.twimg.com/profile_images/883397578330525698/O4L7ehw7_400x400.jpg"
     },
     {
-        name: "Vincent Heuschling",
-        title: "Fondateur de DataTask et du podcast BigDataHebdo",
-        contact: "@vhe74",
-        avatar: "https://media.licdn.com/dms/image/v2/C4E03AQGq9efo2bBgXQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516230536088?e=1762992000&v=beta&t=HsZAJeUC4lRkCn6OU7qdfMfTs-vgDZNw4GyAxYGhLnw"
+        name: "Dorra Bartaguiz",
+        title: "CTO d’Arolla",
+        contact: "@DorraBartaguiz",
+        avatar: "https://pbs.twimg.com/profile_images/1168814043924172800/tfbZpl_H_400x400.jpg"
     }
 ]
 
