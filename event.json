@@ -1,13 +1,13 @@
 {
-    "event": "Soirée n8n et DuckDB",
+    "event": "Soirée Software Craft",
     "talks": [
         {
-            "title": "Introduction à n8n et son utilisation en entreprise",
-            "speaker": "Nayel Ferai"
+            "title": "Comment garder le rythme sur la durée ?",
+            "speaker": "Cyrille et Dorra"
         },
         {
-            "title": "DuckDB, le canard qui a révolutionné le Datalake",
-            "speaker": "Vincent Heuschling"
+            "title": "Software Craft et l’IA",
+            "speaker": "Cyrille et Dorra"
         }
     ]
 }
