@@ -1,13 +1,13 @@
 {
-    "event": "Soirée Software Craft",
+    "event": "Soirée Jetty & Enterprise Java: 30 Years of Innovation",
     "talks": [
         {
-            "title": "Comment garder le rythme sur la durée ?",
-            "speaker": "Cyrille Martraire"
+            "title": "Jetty at 30: Staying relevant with Open Source driven innovation",
+            "speaker": "Greg Wilkins"
         },
         {
-            "title": "Software Craft et l’IA",
-            "speaker": "Cyrille Martraire"
+            "title": "The Past, Present, and Future of Enterprise Java",
+            "speaker": "Ivar Grimstad"
         }
     ]
 }
