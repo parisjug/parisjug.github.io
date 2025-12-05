@@ -1,15 +1,15 @@
 const speakers = [
     {
-        name: "Cyrille Martraire",
-        title: "CTO co-fondateur de la société Arolla",
-        contact: "@cyriux",
-        avatar: "https://pbs.twimg.com/profile_images/883397578330525698/O4L7ehw7_400x400.jpg"
+        name: "Greg Wilkins",
+        title: "Founder of Jetty, CTO emeritus of Webtide",
+        contact: "@jettyproject.bsky.social",
+        avatar: "https://avatars.githubusercontent.com/gregw"
     },
     {
-        name: "Dorra Bartaguiz",
-        title: "CTO d’Arolla",
-        contact: "@DorraBartaguiz",
-        avatar: "https://pbs.twimg.com/profile_images/1168814043924172800/tfbZpl_H_400x400.jpg"
+        name: "Ivar Grimstad",
+        title: "Jakarta EE Developer Advocate at Eclipse Foundation",
+        contact: "@theguywiththeduketattoo.com",
+        avatar: "https://avatars.githubusercontent.com/ivargrimstad"
     }
 ]
 
