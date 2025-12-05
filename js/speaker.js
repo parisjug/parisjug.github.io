@@ -2,13 +2,13 @@ const speakers = [
     {
         name: "Greg Wilkins",
         title: "Founder of Jetty, CTO emeritus of Webtide",
-        contact: "@gregwilkins",
+        contact: "@jettyproject.bsky.social",
         avatar: "https://avatars.githubusercontent.com/gregw"
     },
     {
         name: "Ivar Grimstad",
         title: "Jakarta EE Developer Advocate at Eclipse Foundation",
-        contact: "@ilogu",
+        contact: "@theguywiththeduketattoo.com",
         avatar: "https://avatars.githubusercontent.com/ivargrimstad"
     }
 ]
