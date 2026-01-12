@@ -1,15 +1,39 @@
 const speakers = [
     {
-        name: "Greg Wilkins",
-        title: "Founder of Jetty, CTO emeritus of Webtide",
-        contact: "@jettyproject.bsky.social",
-        avatar: "https://avatars.githubusercontent.com/gregw"
+        name: "Amal Chaieb",
+        title: "Speaker",
+        contact: "",
+        avatar: "https://avatars.githubusercontent.com/u/placeholder"
     },
     {
-        name: "Ivar Grimstad",
-        title: "Jakarta EE Developer Advocate at Eclipse Foundation",
-        contact: "@theguywiththeduketattoo.com",
-        avatar: "https://avatars.githubusercontent.com/ivargrimstad"
+        name: "Sreenu Doosari",
+        title: "Speaker",
+        contact: "",
+        avatar: "https://avatars.githubusercontent.com/u/placeholder"
+    },
+    {
+        name: "Chloé Delphis",
+        title: "Speaker",
+        contact: "",
+        avatar: "https://avatars.githubusercontent.com/u/placeholder"
+    },
+    {
+        name: "Marc Lecanu",
+        title: "Speaker",
+        contact: "",
+        avatar: "https://avatars.githubusercontent.com/u/placeholder"
+    },
+    {
+        name: "Christelle Prut",
+        title: "Speaker",
+        contact: "",
+        avatar: "https://avatars.githubusercontent.com/u/placeholder"
+    },
+    {
+        name: "Latfi Ghassane",
+        title: "Speaker",
+        contact: "",
+        avatar: "https://avatars.githubusercontent.com/u/placeholder"
     }
 ]
 
