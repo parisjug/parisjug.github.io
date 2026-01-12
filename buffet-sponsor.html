@@ -34,7 +34,7 @@
 <body>
     <div id="buffet-section">
         <h3 class="buffet-title" id="buffet-title">Loading buffet information...</h3>
-        <img id="sponsor-logo" class="sponsor-logo" src="" alt="sponsor">
+        <img id="sponsor-logo" class="sponsor-logo" src="" alt="">
     </div>
     <script>
         // Parse URL parameters
@@ -79,6 +79,22 @@
 
         function fetchBuffetData() {
             if (eventUrl) {
+                // Validate that the URL is from a trusted domain
+                try {
+                    const url = new URL(eventUrl);
+                    const trustedDomains = ['parisjug.org', 'www.parisjug.org', 'localhost'];
+                    
+                    if (!trustedDomains.includes(url.hostname)) {
+                        console.error('Untrusted domain:', url.hostname);
+                        document.getElementById('buffet-title').innerText = 'Domaine non autorisé';
+                        return;
+                    }
+                } catch (e) {
+                    console.error('Invalid URL:', eventUrl);
+                    document.getElementById('buffet-title').innerText = 'URL invalide';
+                    return;
+                }
+                
                 // Fetch from the provided event URL
                 fetch(eventUrl)
                     .then(response => response.text())
@@ -105,7 +121,10 @@
                             document.getElementById('buffet-title').innerText = 'Aucune information de buffet disponible';
                         }
                     })
-                    .catch(error => console.error('Error fetching the JSON:', error));
+                    .catch(error => {
+                        console.error('Error fetching the JSON:', error);
+                        document.getElementById('buffet-title').innerText = 'Erreur lors du chargement';
+                    });
             }
         }
 
