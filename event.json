@@ -25,5 +25,10 @@
             "title": "Construire des agents IA en Kotlin avec Koog",
             "speaker": "Latfi Ghassane"
         }
-    ]
+    ],
+    "buffet": {
+        "sponsor": "Exalt IT",
+        "logo": "https://www.parisjug.org/img/sponsors/2026/exalt.svg",
+        "link": "https://www.parisjug.org/location/exalt/"
+    }
 }

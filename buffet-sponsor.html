@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Buffet Sponsor</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 60px;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        #buffet-section {
+            text-align: center;
+        }
+        .buffet-title {
+            font-family: 'Cantarell', sans-serif;
+            font-weight: bold;
+            color: #a30000;
+            margin-bottom: 30px;
+        }
+        .sponsor-logo {
+            max-width: 250px;
+            height: auto;
+        }
+        .sponsor-link {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="buffet-section">
+        <h3 class="buffet-title" id="buffet-title">Loading buffet information...</h3>
+        <a href="#" id="sponsor-link" class="sponsor-link" target="_blank">
+            <img id="sponsor-logo" class="sponsor-logo" src="" alt="sponsor">
+        </a>
+    </div>
+    <script>
+        function fetchBuffetData() {
+            fetch('event.json')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.buffet) {
+                        const buffetTitle = document.getElementById('buffet-title');
+                        const sponsorLink = document.getElementById('sponsor-link');
+                        const sponsorLogo = document.getElementById('sponsor-logo');
+
+                        buffetTitle.innerHTML = `20h30 : Buffet offert par <a href="${data.buffet.link}" target="_blank" style="color: #a30000; text-decoration: none;">${data.buffet.sponsor}</a>`;
+                        sponsorLink.href = data.buffet.link;
+                        sponsorLogo.src = data.buffet.logo;
+                        sponsorLogo.alt = data.buffet.sponsor;
+                    } else {
+                        document.getElementById('buffet-title').innerText = 'No buffet information available';
+                    }
+                })
+                .catch(error => console.error('Error fetching the JSON:', error));
+        }
+
+        // Fetch buffet data initially
+        fetchBuffetData();
+
+        // Refresh buffet data every 10 seconds
+        setInterval(fetchBuffetData, 10000);
+    </script>
+</body>
+</html>
