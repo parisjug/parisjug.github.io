@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Buffet Sponsor</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 60px;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        #buffet-section {
+            text-align: center;
+        }
+        .buffet-title {
+            font-family: 'Cantarell', sans-serif;
+            font-weight: bold;
+            color: #a30000;
+            margin-bottom: 30px;
+        }
+        .sponsor-logo {
+            max-width: 250px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="buffet-section">
+        <h3 class="buffet-title" id="buffet-title">Chargement des informations du buffet...</h3>
+        <img id="sponsor-logo" class="sponsor-logo" src="" alt="">
+    </div>
+    <script>
+        // Trusted domains for security validation
+        const TRUSTED_DOMAINS = ['parisjug.org', 'www.parisjug.org', 'localhost'];
+        
+        // Parse URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const eventUrl = urlParams.get('eventUrl');
+
+        function extractBuffetFromHTML(html) {
+            // Create a temporary DOM element to parse the HTML
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            
+            // Find the h3 element containing "Buffet offert par"
+            const headings = doc.querySelectorAll('h3');
+            for (let heading of headings) {
+                if (heading.textContent.includes('Buffet offert par')) {
+                    const sponsorLink = heading.querySelector('a');
+                    if (sponsorLink) {
+                        const sponsorName = sponsorLink.textContent.trim();
+                        const sponsorUrl = sponsorLink.href;
+                        
+                        // Find the next sibling or nearby figure/img element
+                        let logoElement = heading.nextElementSibling;
+                        let logoUrl = '';
+                        
+                        if (logoElement) {
+                            const img = logoElement.querySelector('img');
+                            if (img) {
+                                logoUrl = img.src;
+                            }
+                        }
+                        
+                        return {
+                            sponsor: sponsorName,
+                            logo: logoUrl,
+                            link: sponsorUrl
+                        };
+                    }
+                }
+            }
+            return null;
+        }
+
+        function fetchBuffetData() {
+            if (eventUrl) {
+                // Validate that the URL is from a trusted domain
+                try {
+                    const url = new URL(eventUrl);
+                    
+                    if (!TRUSTED_DOMAINS.includes(url.hostname)) {
+                        console.error('Untrusted domain:', url.hostname);
+                        document.getElementById('buffet-title').innerText = 'Domaine non autorisé';
+                        return;
+                    }
+                } catch (e) {
+                    console.error('Invalid URL:', eventUrl);
+                    document.getElementById('buffet-title').innerText = 'URL invalide';
+                    return;
+                }
+                
+                // Fetch from the provided event URL
+                fetch(eventUrl)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.text();
+                    })
+                    .then(html => {
+                        const buffetData = extractBuffetFromHTML(html);
+                        if (buffetData) {
+                            displayBuffetData(buffetData);
+                        } else {
+                            document.getElementById('buffet-title').innerText = 'Aucune information de buffet disponible';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching from event URL:', error);
+                        document.getElementById('buffet-title').innerText = 'Erreur lors du chargement';
+                    });
+            } else {
+                // Fetch from event.json (default)
+                fetch('event.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        if (data.buffet) {
+                            displayBuffetData(data.buffet);
+                        } else {
+                            document.getElementById('buffet-title').innerText = 'Aucune information de buffet disponible';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching the JSON:', error);
+                        document.getElementById('buffet-title').innerText = 'Erreur lors du chargement';
+                    });
+            }
+        }
+
+        function displayBuffetData(buffetData) {
+            const buffetTitle = document.getElementById('buffet-title');
+            const sponsorLogo = document.getElementById('sponsor-logo');
+
+            buffetTitle.textContent = `Buffet offert par ${buffetData.sponsor}`;
+            
+            // Validate logo URL domain for security
+            if (buffetData.logo) {
+                try {
+                    const logoUrl = new URL(buffetData.logo);
+                    
+                    if (TRUSTED_DOMAINS.includes(logoUrl.hostname)) {
+                        sponsorLogo.src = buffetData.logo;
+                        sponsorLogo.alt = buffetData.sponsor;
+                    } else {
+                        console.warn('Logo URL from untrusted domain:', logoUrl.hostname);
+                        sponsorLogo.style.display = 'none';
+                    }
+                } catch (e) {
+                    console.warn('Invalid logo URL:', buffetData.logo);
+                    sponsorLogo.style.display = 'none';
+                }
+            }
+        }
+
+        // Fetch buffet data initially
+        fetchBuffetData();
+
+        // Refresh buffet data every 10 seconds
+        setInterval(fetchBuffetData, 10000);
+    </script>
+</body>
+</html>
