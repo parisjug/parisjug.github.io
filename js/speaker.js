@@ -1,39 +1,39 @@
 const speakers = [
     {
         name: "Amal Chaieb",
-        title: "Speaker",
+        title: "Performance Testing Expert",
         contact: "",
-        avatar: "https://avatars.githubusercontent.com/u/placeholder"
+        avatar: "https://github.com/identicons/amalchaieb.png"
     },
     {
         name: "Sreenu Doosari",
-        title: "Speaker",
+        title: "Spring AI Developer",
         contact: "",
-        avatar: "https://avatars.githubusercontent.com/u/placeholder"
+        avatar: "https://github.com/identicons/sreenudoosari.png"
     },
     {
         name: "Chloé Delphis",
-        title: "Speaker",
+        title: "Security Specialist",
         contact: "",
-        avatar: "https://avatars.githubusercontent.com/u/placeholder"
+        avatar: "https://github.com/identicons/chloedelphis.png"
     },
     {
         name: "Marc Lecanu",
-        title: "Speaker",
+        title: "Clean Code Advocate",
         contact: "",
-        avatar: "https://avatars.githubusercontent.com/u/placeholder"
+        avatar: "https://github.com/identicons/marclecanu.png"
     },
     {
         name: "Christelle Prut",
-        title: "Speaker",
+        title: "Coding Dojo Facilitator",
         contact: "",
-        avatar: "https://avatars.githubusercontent.com/u/placeholder"
+        avatar: "https://github.com/identicons/christelleprut.png"
     },
     {
         name: "Latfi Ghassane",
-        title: "Speaker",
+        title: "Kotlin & AI Specialist",
         contact: "",
-        avatar: "https://avatars.githubusercontent.com/u/placeholder"
+        avatar: "https://github.com/identicons/latfighassane.png"
     }
 ]
 
