@@ -29,17 +29,12 @@
             max-width: 250px;
             height: auto;
         }
-        .sponsor-link {
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
     <div id="buffet-section">
         <h3 class="buffet-title" id="buffet-title">Loading buffet information...</h3>
-        <a href="#" id="sponsor-link" class="sponsor-link" target="_blank">
-            <img id="sponsor-logo" class="sponsor-logo" src="" alt="sponsor">
-        </a>
+        <img id="sponsor-logo" class="sponsor-logo" src="" alt="sponsor">
     </div>
     <script>
         function fetchBuffetData() {
@@ -48,11 +43,9 @@
                 .then(data => {
                     if (data.buffet) {
                         const buffetTitle = document.getElementById('buffet-title');
-                        const sponsorLink = document.getElementById('sponsor-link');
                         const sponsorLogo = document.getElementById('sponsor-logo');
 
-                        buffetTitle.innerHTML = `20h30 : Buffet offert par <a href="${data.buffet.link}" target="_blank" style="color: #a30000; text-decoration: none;">${data.buffet.sponsor}</a>`;
-                        sponsorLink.href = data.buffet.link;
+                        buffetTitle.textContent = `Buffet offert par ${data.buffet.sponsor}`;
                         sponsorLogo.src = data.buffet.logo;
                         sponsorLogo.alt = data.buffet.sponsor;
                     } else {
