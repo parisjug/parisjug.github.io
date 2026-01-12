@@ -33,10 +33,13 @@
 </head>
 <body>
     <div id="buffet-section">
-        <h3 class="buffet-title" id="buffet-title">Loading buffet information...</h3>
+        <h3 class="buffet-title" id="buffet-title">Chargement des informations du buffet...</h3>
         <img id="sponsor-logo" class="sponsor-logo" src="" alt="">
     </div>
     <script>
+        // Trusted domains for security validation
+        const TRUSTED_DOMAINS = ['parisjug.org', 'www.parisjug.org', 'localhost'];
+        
         // Parse URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const eventUrl = urlParams.get('eventUrl');
@@ -82,9 +85,8 @@
                 // Validate that the URL is from a trusted domain
                 try {
                     const url = new URL(eventUrl);
-                    const trustedDomains = ['parisjug.org', 'www.parisjug.org', 'localhost'];
                     
-                    if (!trustedDomains.includes(url.hostname)) {
+                    if (!TRUSTED_DOMAINS.includes(url.hostname)) {
                         console.error('Untrusted domain:', url.hostname);
                         document.getElementById('buffet-title').innerText = 'Domaine non autorisé';
                         return;
@@ -148,9 +150,8 @@
             if (buffetData.logo) {
                 try {
                     const logoUrl = new URL(buffetData.logo);
-                    const trustedDomains = ['parisjug.org', 'www.parisjug.org', 'localhost', 'via.placeholder.com'];
                     
-                    if (trustedDomains.includes(logoUrl.hostname)) {
+                    if (TRUSTED_DOMAINS.includes(logoUrl.hostname)) {
                         sponsorLogo.src = buffetData.logo;
                         sponsorLogo.alt = buffetData.sponsor;
                     } else {
