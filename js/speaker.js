@@ -1,15 +1,39 @@
 const speakers = [
     {
-        name: "Greg Wilkins",
-        title: "Founder of Jetty, CTO emeritus of Webtide",
-        contact: "@jettyproject.bsky.social",
-        avatar: "https://avatars.githubusercontent.com/gregw"
+        name: "Amal Chaieb",
+        title: "Performance Testing Expert",
+        contact: "",
+        avatar: "https://github.com/identicons/amalchaieb.png"
     },
     {
-        name: "Ivar Grimstad",
-        title: "Jakarta EE Developer Advocate at Eclipse Foundation",
-        contact: "@theguywiththeduketattoo.com",
-        avatar: "https://avatars.githubusercontent.com/ivargrimstad"
+        name: "Sreenu Doosari",
+        title: "Spring AI Developer",
+        contact: "",
+        avatar: "https://github.com/identicons/sreenudoosari.png"
+    },
+    {
+        name: "Chloé Delphis",
+        title: "Security Specialist",
+        contact: "",
+        avatar: "https://github.com/identicons/chloedelphis.png"
+    },
+    {
+        name: "Marc Lecanu",
+        title: "Clean Code Advocate",
+        contact: "",
+        avatar: "https://github.com/identicons/marclecanu.png"
+    },
+    {
+        name: "Christelle Prut",
+        title: "Coding Dojo Facilitator",
+        contact: "",
+        avatar: "https://github.com/identicons/christelleprut.png"
+    },
+    {
+        name: "Latfi Ghassane",
+        title: "Kotlin & AI Specialist",
+        contact: "",
+        avatar: "https://github.com/identicons/latfighassane.png"
     }
 ]
 
