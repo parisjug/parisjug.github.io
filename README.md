@@ -5,7 +5,7 @@ Static web resources used from our OBS scenes when streaming our online events.
 
 - [https://parisjug.github.io/loading.html](https://parisjug.github.io/loading.html): a waiting screen that displays the time left before live and nice random jokes/fortunes.
 - [https://parisjug.github.io/speaker.html](https://parisjug.github.io/speaker.html): shows the speakers' name, picture and twitter handle. The speaker details are coming from [js/speaker.js](https://github.com/parisjug/parisjug.github.io/blob/gh-pages/js/speaker.js). Can display several speaker by prefixing with #number. For instance [https://parisjug.github.io/speaker.html#2](https://parisjug.github.io/speaker.html#2)
-- [https://parisjug.github.io/buffet-sponsor.html](https://parisjug.github.io/buffet-sponsor.html): displays the buffet sponsor information including the sponsor name and logo. The buffet details are coming from [event.json](https://github.com/parisjug/parisjug.github.io/blob/gh-pages/event.json).
+- [https://parisjug.github.io/buffet-sponsor.html](https://parisjug.github.io/buffet-sponsor.html): displays the buffet sponsor information including the sponsor name and logo. The buffet details are coming from [event.json](https://github.com/parisjug/parisjug.github.io/blob/gh-pages/event.json). Can also fetch directly from a parisjug.org event page by adding `?eventUrl=https://www.parisjug.org/events/2026/01-13-parisjug-academy/` parameter.
 
 Contributions go there: [https://github.com/parisjug/parisjug.github.io](https://github.com/parisjug/parisjug.github.io).
 The site is updated after about 10secs.

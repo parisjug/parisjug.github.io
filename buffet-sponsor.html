@@ -37,22 +37,85 @@
         <img id="sponsor-logo" class="sponsor-logo" src="" alt="sponsor">
     </div>
     <script>
-        function fetchBuffetData() {
-            fetch('event.json')
-                .then(response => response.json())
-                .then(data => {
-                    if (data.buffet) {
-                        const buffetTitle = document.getElementById('buffet-title');
-                        const sponsorLogo = document.getElementById('sponsor-logo');
+        // Parse URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const eventUrl = urlParams.get('eventUrl');
 
-                        buffetTitle.textContent = `Buffet offert par ${data.buffet.sponsor}`;
-                        sponsorLogo.src = data.buffet.logo;
-                        sponsorLogo.alt = data.buffet.sponsor;
-                    } else {
-                        document.getElementById('buffet-title').innerText = 'No buffet information available';
+        function extractBuffetFromHTML(html) {
+            // Create a temporary DOM element to parse the HTML
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            
+            // Find the h3 element containing "Buffet offert par"
+            const headings = doc.querySelectorAll('h3');
+            for (let heading of headings) {
+                if (heading.textContent.includes('Buffet offert par')) {
+                    const sponsorLink = heading.querySelector('a');
+                    if (sponsorLink) {
+                        const sponsorName = sponsorLink.textContent.trim();
+                        const sponsorUrl = sponsorLink.href;
+                        
+                        // Find the next sibling or nearby figure/img element
+                        let logoElement = heading.nextElementSibling;
+                        let logoUrl = '';
+                        
+                        if (logoElement) {
+                            const img = logoElement.querySelector('img');
+                            if (img) {
+                                logoUrl = img.src;
+                            }
+                        }
+                        
+                        return {
+                            sponsor: sponsorName,
+                            logo: logoUrl,
+                            link: sponsorUrl
+                        };
                     }
-                })
-                .catch(error => console.error('Error fetching the JSON:', error));
+                }
+            }
+            return null;
+        }
+
+        function fetchBuffetData() {
+            if (eventUrl) {
+                // Fetch from the provided event URL
+                fetch(eventUrl)
+                    .then(response => response.text())
+                    .then(html => {
+                        const buffetData = extractBuffetFromHTML(html);
+                        if (buffetData) {
+                            displayBuffetData(buffetData);
+                        } else {
+                            document.getElementById('buffet-title').innerText = 'Aucune information de buffet disponible';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching from event URL:', error);
+                        document.getElementById('buffet-title').innerText = 'Erreur lors du chargement';
+                    });
+            } else {
+                // Fetch from event.json (default)
+                fetch('event.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.buffet) {
+                            displayBuffetData(data.buffet);
+                        } else {
+                            document.getElementById('buffet-title').innerText = 'Aucune information de buffet disponible';
+                        }
+                    })
+                    .catch(error => console.error('Error fetching the JSON:', error));
+            }
+        }
+
+        function displayBuffetData(buffetData) {
+            const buffetTitle = document.getElementById('buffet-title');
+            const sponsorLogo = document.getElementById('sponsor-logo');
+
+            buffetTitle.textContent = `Buffet offert par ${buffetData.sponsor}`;
+            sponsorLogo.src = buffetData.logo;
+            sponsorLogo.alt = buffetData.sponsor;
         }
 
         // Fetch buffet data initially
