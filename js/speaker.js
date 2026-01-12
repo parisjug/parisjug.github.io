@@ -15,7 +15,7 @@ const speakers = [
         name: "Chloé Delphis",
         title: "Software Engineer | Security & Vulnerability Management",
         contact: "",
-        avatar: "https://ui-avatars.com/api/?name=Chloe+Delphis&size=200&background=a30000&color=fff"
+        avatar: "https://ui-avatars.com/api/?name=Chloé+Delphis&size=200&background=a30000&color=fff"
     },
     {
         name: "Marc Lecanu",
