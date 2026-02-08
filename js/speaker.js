@@ -8,8 +8,8 @@ const speakers = [
     {
         name: "Bruce Bujon",
         title: "Senior Software Engineer at Datadog",
-        contact: "",
-        avatar: "https://www.parisjug.org/img/speakers/bruce-bujon.jpg"
+        contact: "@hardcoding.fr",
+        avatar: "https://www.parisjug.org/images/speakers/bruce-bujon_hu_45a6de3f16094c5f.jpg"
     }
 ]
 
