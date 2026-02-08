@@ -128,12 +128,6 @@ def generate_sponsors_svg(sponsors_dir, output_file):
        id="sponsor-{sponsor_idx-1}-{sponsor_name.lower().replace(" ", "-")}"
        inkscape:label="{sponsor_name}"
        transform="translate({x},{y})">
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         width="{logo_width}"
-         height="{logo_height}"
-         x="0"
-         y="0" />
 '''
             
             # Extract the content from the sponsor SVG
