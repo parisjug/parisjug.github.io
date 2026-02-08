@@ -3,7 +3,7 @@ const speakers = [
         name: "Pejman Tabassomi",
         title: "Field CTO at Datadog",
         contact: "",
-        avatar: "https://www.parisjug.org/img/speakers/pejman-tabassomi.jpg"
+        avatar: ""
     },
     {
         name: "Bruce Bujon",
