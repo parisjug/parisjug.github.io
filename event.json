@@ -1,34 +1,18 @@
 {
-    "event": "Soirée ParisJUG Academy 2026",
+    "event": "Observabilité Java",
     "talks": [
         {
-            "title": "Quand les tests de performance deviennent un critère d'acceptance",
-            "speaker": "Amal Chaieb"
+            "title": "25 ans de Java : Des monolithes aux microservices pilotés par l'observabilité",
+            "speaker": "Pejman Tabassomi"
         },
         {
-            "title": "Spring AI with Docker model runner and Debugging",
-            "speaker": "Sreenu Doosari"
-        },
-        {
-            "title": "CVE en hausse : comment maintenir un produit sûr sans Security Officer",
-            "speaker": "Chloé Delphis"
-        },
-        {
-            "title": "Clean Code Matters",
-            "speaker": "Marc Lecanu"
-        },
-        {
-            "title": "Un dojo de code",
-            "speaker": "Christelle Prut"
-        },
-        {
-            "title": "Construire des agents IA en Kotlin avec Koog",
-            "speaker": "Latfi Ghassane"
+            "title": "La Magie d'OpenTelemetry : réécrire votre app en production",
+            "speaker": "Bruce Bujon"
         }
     ],
     "buffet": {
-        "sponsor": "Exalt IT",
-        "logo": "https://www.parisjug.org/img/sponsors/2026/exalt.svg",
-        "link": "https://www.parisjug.org/location/exalt/"
+        "sponsor": "Datadog",
+        "logo": "https://www.parisjug.org/img/sponsors/2026/datadog.svg",
+        "link": "https://www.parisjug.org/location/datadog/"
     }
 }
