@@ -21,7 +21,7 @@
     <g
        id="sponsor-0-agorapulse"
        inkscape:label="Agorapulse"
-       transform="translate(0,0)">
+       transform="translate(0.0,0)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:none"
          width="110"
@@ -349,7 +349,7 @@
     <g
        id="sponsor-1-renault-digital"
        inkscape:label="Renault Digital"
-       transform="translate(115,0)">
+       transform="translate(115.0,0)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:none"
          width="110"
@@ -470,7 +470,7 @@
     <g
        id="sponsor-2-doctolib"
        inkscape:label="Doctolib"
-       transform="translate(230,0)">
+       transform="translate(230.0,0)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:none"
          width="110"
@@ -522,7 +522,7 @@
     <g
        id="sponsor-3-mirakl"
        inkscape:label="Mirakl"
-       transform="translate(0,70)">
+       transform="translate(57.5,70)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:none"
          width="110"
@@ -1103,7 +1103,7 @@
     <g
        id="sponsor-4-octo"
        inkscape:label="Octo"
-       transform="translate(115,70)">
+       transform="translate(172.5,70)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:none"
          width="110"
@@ -1177,7 +1177,7 @@
     <g
        id="sponsor-5-oxiane"
        inkscape:label="Oxiane"
-       transform="translate(230,70)">
+       transform="translate(0.0,140)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:none"
          width="110"
@@ -1357,7 +1357,7 @@
     <g
        id="sponsor-6-margo"
        inkscape:label="Margo"
-       transform="translate(0,140)">
+       transform="translate(115.0,140)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:none"
          width="110"
@@ -1725,7 +1725,7 @@
     <g
        id="sponsor-7-sciam"
        inkscape:label="SCIAM"
-       transform="translate(115,140)">
+       transform="translate(230.0,140)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:none"
          width="110"
