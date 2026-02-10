@@ -1,5 +1,5 @@
 {
-    "event": "Soirée Observalibité Java",
+    "event": "Soirée Observabilité Java",
     "talks": [
         {
             "title": "25 ans de Java : Des monolithes aux microservices pilotés par l'observabilité",
