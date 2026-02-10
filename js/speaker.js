@@ -3,7 +3,7 @@ const speakers = [
         name: "Pejman Tabassomi",
         title: "Field CTO at Datadog",
         contact: "",
-        avatar: ""
+        avatar: "https://media.licdn.com/dms/image/v2/C4E03AQHYy4UVxWizNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1542317177040?e=1772064000&v=beta&t=4SV1QC71o4FAXhGuSb7VCwVHabavYFXyI0wzHMVQaqQ"
     },
     {
         name: "Bruce Bujon",
