@@ -13,14 +13,14 @@
     "speakers": [
         {
             "name": "Antonio Goncalves",
-            "title": "Java Champion",
-            "contact": "@agoncal",
+            "title": "Principal Software Engineer chez Microsoft",
+            "contact": "@agoncal.bsky.social",
             "avatar": "https://avatars.githubusercontent.com/agoncal"
         },
         {
             "name": "Yann Blazart",
-            "title": "Software Engineer",
-            "contact": "@yblazart",
+            "title": "Référent technique chez SCIAM",
+            "contact": "@yblazart.bsky.social",
             "avatar": "https://media.licdn.com/dms/image/v2/D5603AQFW-JDhDXSTeA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643026343953?e=1773273600&v=beta&t=nhvhTMTzBCMdMgMPWMwwvZwxr-5JUNWzD960fvfrfL8"
         }
     ],
