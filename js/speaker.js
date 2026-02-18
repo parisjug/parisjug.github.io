@@ -19,7 +19,10 @@ function fetchSpeakerData() {
         .then(data => {
             speakers = data.speakers || [];
             if (speakers.length > 0) {
-                loadSpeaker(getSpeakerFromLocation());
+                const speaker = getSpeakerFromLocation();
+                if (speaker) {
+                    loadSpeaker(speaker);
+                }
             }
         })
         .catch(error => console.error('Error fetching the speaker data:', error));
