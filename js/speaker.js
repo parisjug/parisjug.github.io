@@ -1,17 +1,4 @@
-const speakers = [
-    {
-        name: "Pejman Tabassomi",
-        title: "Field CTO at Datadog",
-        contact: "",
-        avatar: "https://media.licdn.com/dms/image/v2/C4E03AQHYy4UVxWizNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1542317177040?e=1772064000&v=beta&t=4SV1QC71o4FAXhGuSb7VCwVHabavYFXyI0wzHMVQaqQ"
-    },
-    {
-        name: "Bruce Bujon",
-        title: "Senior Software Engineer at Datadog",
-        contact: "@hardcoding.fr",
-        avatar: "https://www.parisjug.org/images/speakers/bruce-bujon_hu_45a6de3f16094c5f.jpg"
-    }
-]
+let speakers = [];
 
 function loadSpeaker(speaker) {
     $('.avatar').attr('src', speaker.avatar);
@@ -21,11 +8,25 @@ function loadSpeaker(speaker) {
 }
 
 function getSpeakerFromLocation() {
-    const hast = window.location.hash;
-    const index = hast ? hast.substr(1) : 0;
+    const hash = window.location.hash;
+    const index = hash ? hash.substr(1) : 0;
     return speakers[index];
 }
 
+function fetchSpeakerData() {
+    fetch('event.json')
+        .then(response => response.json())
+        .then(data => {
+            speakers = data.speakers || [];
+            if (speakers.length > 0) {
+                loadSpeaker(getSpeakerFromLocation());
+            }
+        })
+        .catch(error => console.error('Error fetching the speaker data:', error));
+}
+
 window.onload = function () {
-    loadSpeaker(getSpeakerFromLocation());
+    fetchSpeakerData();
+    // Refresh speaker data every 10 seconds to match other pages
+    setInterval(fetchSpeakerData, 10000);
 }

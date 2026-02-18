@@ -10,6 +10,20 @@
             "speaker": "Bruce Bujon"
         }
     ],
+    "speakers": [
+        {
+            "name": "Pejman Tabassomi",
+            "title": "Field CTO at Datadog",
+            "contact": "",
+            "avatar": "https://media.licdn.com/dms/image/v2/C4E03AQHYy4UVxWizNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1542317177040?e=1772064000&v=beta&t=4SV1QC71o4FAXhGuSb7VCwVHabavYFXyI0wzHMVQaqQ"
+        },
+        {
+            "name": "Bruce Bujon",
+            "title": "Senior Software Engineer at Datadog",
+            "contact": "@hardcoding.fr",
+            "avatar": "https://www.parisjug.org/images/speakers/bruce-bujon_hu_45a6de3f16094c5f.jpg"
+        }
+    ],
     "buffet": {
         "sponsor": "Datadog",
         "logo": "https://www.parisjug.org/img/sponsors/2026/datadog.svg",
