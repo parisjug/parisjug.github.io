@@ -1,32 +1,32 @@
 {
-    "event": "Soirée Observabilité Java",
+    "event": "Soirée LangChain4j",
     "talks": [
         {
-            "title": "25 ans de Java : Des monolithes aux microservices pilotés par l'observabilité",
-            "speaker": "Pejman Tabassomi"
+            "title": "Créer un Chatbot Intelligent avec LangChain4j",
+            "speaker": "Antonio Goncalves"
         },
         {
-            "title": "La Magie d'OpenTelemetry : réécrire votre app en production",
-            "speaker": "Bruce Bujon"
+            "title": "LangChain4j-CDI : L'IA Générative Nativement Injectable dans Jakarta EE",
+            "speaker": "Yann Blazart"
         }
     ],
     "speakers": [
         {
-            "name": "Pejman Tabassomi",
-            "title": "Field CTO at Datadog",
-            "contact": "",
-            "avatar": "https://media.licdn.com/dms/image/v2/C4E03AQHYy4UVxWizNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1542317177040?e=1772064000&v=beta&t=4SV1QC71o4FAXhGuSb7VCwVHabavYFXyI0wzHMVQaqQ"
+            "name": "Antonio Goncalves",
+            "title": "Java Champion",
+            "contact": "@agoncal",
+            "avatar": "https://avatars.githubusercontent.com/agoncal"
         },
         {
-            "name": "Bruce Bujon",
-            "title": "Senior Software Engineer at Datadog",
-            "contact": "@hardcoding.fr",
-            "avatar": "https://www.parisjug.org/images/speakers/bruce-bujon_hu_45a6de3f16094c5f.jpg"
+            "name": "Yann Blazart",
+            "title": "Software Engineer",
+            "contact": "@yblazart",
+            "avatar": "https://media.licdn.com/dms/image/v2/D5603AQFW-JDhDXSTeA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643026343953?e=1773273600&v=beta&t=nhvhTMTzBCMdMgMPWMwwvZwxr-5JUNWzD960fvfrfL8"
         }
     ],
     "buffet": {
-        "sponsor": "Datadog",
-        "logo": "https://www.parisjug.org/img/sponsors/2026/datadog.svg",
-        "link": "https://www.parisjug.org/location/datadog/"
+        "sponsor": "Microsoft",
+        "logo": "https://www.parisjug.org/img/sponsors/2026/microsoft.svg",
+        "link": "https://www.parisjug.org/location/microsoft/"
     }
 }
