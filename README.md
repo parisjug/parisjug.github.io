@@ -2,6 +2,44 @@
 
 Static web resources used from our OBS scenes when streaming our online events.
 
+## Event Configuration
+
+**All event configuration is centralized in a single file: [event.json](https://github.com/parisjug/parisjug.github.io/blob/gh-pages/event.json)**
+
+The `event.json` file is the single source of truth for all event-related information and contains:
+- **Event title**: The main event name
+- **Talks**: Array of talks with title and speaker name
+- **Speakers**: Detailed speaker information (name, title, contact, avatar)
+- **Buffet sponsor**: Sponsor information including name, logo, and link
+
+All pages that display event information automatically refresh every 10 seconds to pick up changes from `event.json`.
+
+### Example event.json structure:
+```json
+{
+    "event": "Event Title",
+    "talks": [
+        {
+            "title": "Talk Title",
+            "speaker": "Speaker Name"
+        }
+    ],
+    "speakers": [
+        {
+            "name": "Speaker Name",
+            "title": "Job Title",
+            "contact": "@handle or contact",
+            "avatar": "https://example.com/avatar.jpg"
+        }
+    ],
+    "buffet": {
+        "sponsor": "Sponsor Name",
+        "logo": "https://example.com/logo.svg",
+        "link": "https://example.com/sponsor-page"
+    }
+}
+```
+
 ## Available Pages
 
 - [https://parisjug.github.io/debug.html](https://parisjug.github.io/debug.html): just simple html with link
@@ -17,7 +55,7 @@ Static web resources used from our OBS scenes when streaming our online events.
   - `#talk1-speaker` - Shows only the first speaker name
   - `#talk2-speaker` - Shows only the second speaker name
 
-- [https://parisjug.github.io/speaker.html](https://parisjug.github.io/speaker.html): shows the speakers' name, picture and twitter handle. The speaker details are coming from [js/speaker.js](https://github.com/parisjug/parisjug.github.io/blob/gh-pages/js/speaker.js). Can display several speaker by prefixing with #number. For instance [https://parisjug.github.io/speaker.html#2](https://parisjug.github.io/speaker.html#2)
+- [https://parisjug.github.io/speaker.html](https://parisjug.github.io/speaker.html): shows the speakers' name, picture and contact handle. The speaker details are coming from [event.json](https://github.com/parisjug/parisjug.github.io/blob/gh-pages/event.json). Can display several speaker by prefixing with #number. For instance [https://parisjug.github.io/speaker.html#2](https://parisjug.github.io/speaker.html#2)
 
 - [https://parisjug.github.io/buffet-sponsor.html](https://parisjug.github.io/buffet-sponsor.html): displays the buffet sponsor information including the sponsor name and logo. The buffet details are coming from [event.json](https://github.com/parisjug/parisjug.github.io/blob/gh-pages/event.json). Can also fetch directly from a parisjug.org event page by adding `?eventUrl=https://www.parisjug.org/events/2026/01-13-parisjug-academy/` parameter.
 
