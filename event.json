@@ -1,32 +1,32 @@
 {
-    "event": "Soirée Développer avec l'IA",
+    "event": "Soirée la mémoire dans la JVM",
     "talks": [
         {
-            "title": "L'IA et la génération de code Java en mars 2026",
-            "speaker": "Julien Dubois"
+            "title": "G1, ZGC, Shenandoah, … avec tous ces GCs dans Java, je choisis lequel ?",
+            "speaker": "Antoine Dessaigne"
         },
         {
-            "title": "La transformation du métier de développeur avec les Agents AI",
-            "speaker": "Patrick Chanezon"
+            "title": "Projet Lilliput : Et si vos objets Java prenaient moins de place ?",
+            "speaker": "Achraf Hasbi"
         }
     ],
     "speakers": [
         {
-            "name": "Julien Dubois",
-            "title": "Java Champion et Principal Manager chez Microsoft",
-            "contact": "@jdubois.bsky.social",
-            "avatar": "https://raw.githubusercontent.com/parisjug/parisjug-website/master/assets/images/speakers/julien-dubois.jpg"
+            "name": "Antoine Dessaigne",
+            "title": "Développeur Java chez Axway",
+            "contact": "@adessaigne.bsky.social",
+            "avatar": "https://raw.githubusercontent.com/parisjug/parisjug-website/master/assets/images/speakers/antoine-dessaigne.jpg"
         },
         {
-            "name": "Patrick Chanezon",
-            "title": "Lead Developer Relations chez Microsoft",
-            "contact": "@chanezon.bsky.social",
-            "avatar": "https://raw.githubusercontent.com/parisjug/parisjug-website/master/assets/images/speakers/patrick-chanezon.jpg"
+            "name": "Achraf Hasbi",
+            "title": "Practice Lead Java et ingénieur R&D",
+            "contact": "linkedin.com/in/achraf-hasbi",
+            "avatar": "https://raw.githubusercontent.com/parisjug/parisjug-website/master/assets/images/speakers/achraf-hasbi.jpg"
         }
     ],
     "buffet": {
-        "sponsor": "Doctolib",
-        "logo": "https://www.parisjug.org/img/sponsors/2026/doctolib.svg",
-        "link": "https://www.parisjug.org/location/doctolib/"
+        "sponsor": "MARGO",
+        "logo": "https://www.parisjug.org/img/sponsors/2026/margo.svg",
+        "link": "https://www.parisjug.org/location/margo/"
     }
 }
