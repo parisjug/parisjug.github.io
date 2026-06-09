@@ -1,13 +1,13 @@
 {
-    "event": "Soirée la mémoire dans la JVM",
+    "event": "Soirée JVM et CLI",
     "talks": [
         {
-            "title": "G1, ZGC, Shenandoah, … avec tous ces GCs dans Java, je choisis lequel ?",
+            "title": "Comme Alice, osez suivre le lapin blanc et plongez dans la JVM pour comprendre son fonctionnement",
             "speaker": "Antoine Dessaigne"
         },
         {
-            "title": "Projet Lilliput : Et si vos objets Java prenaient moins de place ?",
-            "speaker": "Achraf Hasbi"
+            "title": "Toi aussi crée ta CLI boostée à l'IA avec Picocli",
+            "speaker": "Stéphane Philippart"
         }
     ],
     "speakers": [
@@ -15,18 +15,18 @@
             "name": "Antoine Dessaigne",
             "title": "Développeur Java chez Axway",
             "contact": "@adessaigne.bsky.social",
-            "avatar": "https://pbs.twimg.com/profile_images/1612845203169099776/lxDKqK3z_400x400.jpg"
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pwo2flrscfbkh2527yypsxpf/bafkreiet346dhsbzbptconriqzlbvmltye7xv4iaclu2lszzgogzbm2xwq@jpeg"
         },
         {
-            "name": "Achraf Hasbi",
-            "title": "Practice Lead Java et ingénieur R&D",
-            "contact": "linkedin.com/in/achraf-hasbi",
-            "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQGOBLVYR9oU_g/profile-displayphoto-shrink_400_400/B4EZcRpG9cHsAs-/0/1748347679051?e=1779926400&v=beta&t=lzwN4ffqvjf2G8vPDx80F7mkqP8wDC2RQbtLgoYGZQo"
+            "name": "Stéphane Philippart",
+            "title": "DevRel chez OVHcloud",
+            "contact": "@wilda.bsky.social",
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dtgivp4i5hosq2bpcstcmdxn/bafkreigvrisvsdo5g3nbx4y7bkhy5xsor6s2ycpypfhblw4pcxll4wrjsa@jpeg"
         }
     ],
     "buffet": {
-        "sponsor": "MARGO",
-        "logo": "https://www.parisjug.org/img/sponsors/2026/margo.svg",
-        "link": "https://www.parisjug.org/location/margo/"
+        "sponsor": "RENAULT DIGITAL",
+        "logo": "https://www.parisjug.org/img/sponsors/2026/renault-digital.svg",
+        "link": "https://www.parisjug.org/location/renault-digital/"
     }
 }
