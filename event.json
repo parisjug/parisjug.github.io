@@ -1,27 +1,27 @@
 {
-    "event": "Soirée JVM et CLI",
+    "event": "Soirée Valhalla, JEP et autres sujets",
     "talks": [
         {
-            "title": "Comme Alice, osez suivre le lapin blanc et plongez dans la JVM pour comprendre son fonctionnement",
-            "speaker": "Antoine Dessaigne"
+            "title": "Valhalla, JEP et autres sujets",
+            "speaker": "Rémi et José"
         },
         {
-            "title": "Toi aussi crée ta CLI boostée à l'IA avec Picocli",
-            "speaker": "Stéphane Philippart"
+            "title": "Hokus Focus (Ragnarök is coming ?)",
+            "speaker": "Rémi et José"
         }
     ],
     "speakers": [
         {
-            "name": "Antoine Dessaigne",
-            "title": "Développeur Java chez Axway",
-            "contact": "@adessaigne.bsky.social",
-            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pwo2flrscfbkh2527yypsxpf/bafkreiet346dhsbzbptconriqzlbvmltye7xv4iaclu2lszzgogzbm2xwq@jpeg"
+            "name": "Rémi Forax",
+            "title": "Maître de conférences à l'université Paris Est - Marne la Vallée",
+            "contact": "@forax",
+            "avatar": "https://avatars.githubusercontent.com/u/828220?v=4"
         },
         {
-            "name": "Stéphane Philippart",
-            "title": "DevRel chez OVHcloud",
-            "contact": "@wilda.bsky.social",
-            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dtgivp4i5hosq2bpcstcmdxn/bafkreigvrisvsdo5g3nbx4y7bkhy5xsor6s2ycpypfhblw4pcxll4wrjsa@jpeg"
+            "name": "José Paumard",
+            "title": "Java Developer Advocate chez Oracle, Java Champion",
+            "contact": "@josepaumard.bsky.social",
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:h7nz4rt7dc45dvz7cahti5n5/bafkreicoejom6fv7zhpjgblqsz4wckpdyfz7q6oj3occheyp33b4yeguwu@jpeg"
         }
     ],
     "buffet": {
