@@ -1,27 +1,33 @@
 {
-    "event": "Soirée Valhalla, JEP et autres sujets",
-    "date": "2026-09-08",
+    "event": "Soirée API via MCP et tests bien couverts",
+    "date": "2026-10-13",
     "talks": [
         {
-            "title": "Valhalla, JEP et autres sujets",
-            "speaker": "Rémi Forax"
+            "title": "Reshap(e)r vos API en MCP Servers",
+            "speaker": "Laurent Broudoux"
         },
         {
-            "title": "Hokus Focus (Ragnarök is coming ?)",
-            "speaker": "Rémi Forax"
+            "title": "La couverture du code n'est jamais à 100%",
+            "speaker": "Sidney Cohen"
         }
     ],
     "speakers": [
         {
-            "name": "Rémi Forax",
-            "title": "Maître de conférences à l'université Paris Est - Marne la Vallée",
-            "contact": "@forax",
-            "avatar": "https://avatars.githubusercontent.com/u/828220?v=4"
+            "name": "Laurent Broudoux",
+            "title": "Architecte codeur cloud-native (Kubernetes, API, intégration) et fondateur du projet Microcks",
+            "contact": "@lbroudoux",
+            "avatar": "https://avatars.githubusercontent.com/u/1538635?v=4"
+        },
+        {
+            "name": "Sidney Cohen",
+            "title": "Développeur Java depuis 10 ans, 21 ans de développement au total",
+            "contact": "",
+            "avatar": "/img/question.png"
         }
     ],
     "buffet": {
-        "sponsor": "RENAULT DIGITAL",
-        "logo": "https://www.parisjug.org/img/sponsors/2026/renault-digital.svg",
-        "link": "https://www.parisjug.org/location/renault-digital/"
+        "sponsor": "EXALT IT",
+        "logo": "https://www.parisjug.org/img/sponsors/2026/exalt.svg",
+        "link": "https://www.parisjug.org/location/exalt/"
     }
 }
